@@ -26,8 +26,6 @@
 ## Requirements
 
 - iOS 8.0 or later
-- tvOS 9.0 or later
-- watchOS 2.0 or later
 - macOS 10.10 or later (10.15 for Catalyst)
 - Xcode 10.0 or later
 
