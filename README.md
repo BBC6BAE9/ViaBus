@@ -182,29 +182,19 @@ In the source files where you need to use the library, import the umbrella heade
 At this point your workspace should build without error. If you are having problem, post to the Issue and the
 community can help you solve it.
 
-## Author
-- [Olivier Poitrey](https://github.com/rs)
-
-## Collaborators
-- [Konstantinos K.](https://github.com/mythodeia)
-- [Bogdan Poplauschi](https://github.com/bpoplauschi)
-- [Chester Liu](https://github.com/skyline75489)
-- [DreamPiggy](https://github.com/dreampiggy)
-- [Wu Zhong](https://github.com/zhongwuzw)
-
-## Credits
-
-Thank you to all the people who have already contributed to SDWebImage.
-
-[![Contributors](https://opencollective.com/SDWebImage/contributors.svg?width=890)](https://github.com/SDWebImage/SDWebImage/graphs/contributors)
+## 作者
+- [HuangHong](https://github.com/BBC6BAE9)
 
 ## Licenses
 
 All source code is licensed under the [MIT License]().
 
-## Architecture
+## 架构
 
 ![Mb33k9.png](https://s2.ax1x.com/2019/11/23/Mb33k9.png)
+
+## 存储结构
+
 
 #### More detailed diagrams
 - [Manager API Diagram](https://raw.githubusercontent.com/SDWebImage/SDWebImage/master/Docs/Diagrams/SDWebImageManagerClassDiagram.png)
