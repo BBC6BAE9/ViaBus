@@ -26,21 +26,6 @@
 - macOS 10.10 or later (10.15 for Catalyst)
 - Xcode 10.0 or later
 
-## 一览
-
-- Read this Readme doc
-- Read the [How to use section](https://github.com/SDWebImage/SDWebImage#how-to-use)
-- Read the [Latest Documentation](https://sdwebimage.github.io/) and [CocoaDocs for old version](http://cocoadocs.org/docsets/SDWebImage/)
-- Try the example by downloading the project from Github or even easier using CocoaPods try `pod try SDWebImage`
-- Read the [Installation Guide](https://github.com/SDWebImage/SDWebImage/wiki/Installation-Guide)
-- Read the [SDWebImage 5.0 Migration Guide](https://github.com/SDWebImage/SDWebImage/blob/master/Docs/SDWebImage-5.0-Migration-guide.md) to get an idea of the changes from 4.x to 5.x
-- Read the [SDWebImage 4.0 Migration Guide](https://github.com/SDWebImage/SDWebImage/blob/master/Docs/SDWebImage-4.0-Migration-guide.md) to get an idea of the changes from 3.x to 4.x
-- Read the [Common Problems](https://github.com/SDWebImage/SDWebImage/wiki/Common-Problems) to find the solution for common problems 
-- Go to the [Wiki Page](https://github.com/SDWebImage/SDWebImage/wiki) for more information such as [Advanced Usage](https://github.com/SDWebImage/SDWebImage/wiki/Advanced-Usage)
-
-## 谁在使用它
-
-
 ## 联系我
 - 如果你 **发现了Bug**, 请提issue.
 
