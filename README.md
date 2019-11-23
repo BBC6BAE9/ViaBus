@@ -9,7 +9,7 @@
 [![Mac Catalyst compatible](https://img.shields.io/badge/Catalyst-compatible-brightgreen.svg)](https://developer.apple.com/documentation/xcode/creating_a_mac_version_of_your_ipad_app/)
 [![codecov](https://codecov.io/gh/SDWebImage/SDWebImage/branch/master/graph/badge.svg)](https://codecov.io/gh/SDWebImage/SDWebImage)
 
-轻量级的事件总线，轻松管理监听周期，实现模块间解耦
+轻量级的事件总线，轻松实现模块间解耦，无需管理订阅周期....
 
 事件总线是观察者模式（发布/订阅）的一种实现，集中处理事件，但是不同功能模块之间不需要依赖从而达到解耦的目的，是App内各功能部件之间传送信息的`公共通信干线`。
 
