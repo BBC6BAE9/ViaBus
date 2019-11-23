@@ -9,7 +9,9 @@
 [![Mac Catalyst compatible](https://img.shields.io/badge/Catalyst-compatible-brightgreen.svg)](https://developer.apple.com/documentation/xcode/creating_a_mac_version_of_your_ipad_app/)
 [![codecov](https://codecov.io/gh/SDWebImage/SDWebImage/branch/master/graph/badge.svg)](https://codecov.io/gh/SDWebImage/SDWebImage)
 
-This library provides an async image downloader with cache support. For convenience, we added categories for UI elements like `UIImageView`, `UIButton`, `MKAnnotationView`.
+轻量级的事件总线，轻松管理监听周期，实现模块间解耦
+
+事件总线是观察者模式（发布/订阅）的一种实现，集中处理事件，但是不同功能模块之间不需要依赖从而达到解耦的目的，是App内各功能部件之间传送信息的`公共通信干线`。
 
 ## 特性
 
@@ -20,10 +22,10 @@ This library provides an async image downloader with cache support. For convenie
 ## 支持的事件类型
 
 - NSNotification
-- AppDelegate中的App行为通知
+- AppDelegate中的App行为通知（稍后更新...）
 
 #### 三方库
-- [RFDestoryNotify](https://github.com/refusebt/RFDestoryNotify) - plugin to support [FLAnimatedImage]
+- [RFDestoryNotify](https://github.com/refusebt/RFDestoryNotify) - 监听实例的释放
 
 ## Requirements
 
@@ -33,7 +35,7 @@ This library provides an async image downloader with cache support. For convenie
 - macOS 10.10 or later (10.15 for Catalyst)
 - Xcode 10.0 or later
 
-## 开始使用
+## 一览
 
 - Read this Readme doc
 - Read the [How to use section](https://github.com/SDWebImage/SDWebImage#how-to-use)
@@ -55,24 +57,18 @@ This library provides an async image downloader with cache support. For convenie
 - If you **found a bug**, open an issue.
 - If you **have a feature request**, open an issue.
 
-## How To Use
+## 如何使用
 
 * Objective-C
 
 ```objective-c
-#import <SDWebImage/SDWebImage.h>
+#import "BBEventBus.h"
 ...
-[imageView sd_setImageWithURL:[NSURL URLWithString:@"http://www.domain.com/path/to/image.jpg"]
-             placeholderImage:[UIImage imageNamed:@"placeholder.png"]];
+[BBEVENTBUS subscribeEventWithEventname:@"dataDidchanged" andTaget:self handler:^(NSString * _Nonnull eventName, id  _Nonnull object) {
+
+}];
 ```
 
-* Swift
-
-```swift
-import SDWebImage
-
-imageView.sd_setImage(with: URL(string: "http://www.domain.com/path/to/image.jpg"), placeholderImage: UIImage(named: "placeholder.png"))
-```
 
 - For details about how to use the library and clear examples, see [The detailed How to use](https://github.com/SDWebImage/SDWebImage/blob/master/Docs/HowToUse.md)
 
@@ -186,47 +182,19 @@ In the source files where you need to use the library, import the umbrella heade
 At this point your workspace should build without error. If you are having problem, post to the Issue and the
 community can help you solve it.
 
-## Author
-- [Olivier Poitrey](https://github.com/rs)
-
-## Collaborators
-- [Konstantinos K.](https://github.com/mythodeia)
-- [Bogdan Poplauschi](https://github.com/bpoplauschi)
-- [Chester Liu](https://github.com/skyline75489)
-- [DreamPiggy](https://github.com/dreampiggy)
-- [Wu Zhong](https://github.com/zhongwuzw)
-
-## Credits
-
-Thank you to all the people who have already contributed to SDWebImage.
-
-[![Contributors](https://opencollective.com/SDWebImage/contributors.svg?width=890)](https://github.com/SDWebImage/SDWebImage/graphs/contributors)
+## 作者
+- [HuangHong](https://github.com/BBC6BAE9)
 
 ## Licenses
 
-All source code is licensed under the [MIT License](https://github.com/SDWebImage/SDWebImage/blob/master/LICENSE).
+All source code is licensed under the [MIT License]().
 
-## Architecture
+## 架构
 
-#### High Level Diagram
-<p align="center" >
-    <img src="https://raw.githubusercontent.com/SDWebImage/SDWebImage/master/Docs/Diagrams/SDWebImageHighLevelDiagram.jpeg" title="SDWebImage high level diagram">
-</p>
+![Mb33k9.png](https://s2.ax1x.com/2019/11/23/Mb33k9.png)
 
-#### Overall Class Diagram
-<p align="center" >
-    <img src="https://raw.githubusercontent.com/SDWebImage/SDWebImage/master/Docs/Diagrams/SDWebImageClassDiagram.png" title="SDWebImage overall class diagram">
-</p>
+## 存储结构
 
-#### Top Level API Diagram
-<p align="center" >
-    <img src="https://raw.githubusercontent.com/SDWebImage/SDWebImage/master/Docs/Diagrams/SDWebImageTopLevelClassDiagram.png" title="SDWebImage top level API diagram">
-</p>
-
-#### Main Sequence Diagram
-<p align="center" >
-    <img src="https://raw.githubusercontent.com/SDWebImage/SDWebImage/master/Docs/Diagrams/SDWebImageSequenceDiagram.png" title="SDWebImage sequence diagram">
-</p>
 
 #### More detailed diagrams
 - [Manager API Diagram](https://raw.githubusercontent.com/SDWebImage/SDWebImage/master/Docs/Diagrams/SDWebImageManagerClassDiagram.png)
