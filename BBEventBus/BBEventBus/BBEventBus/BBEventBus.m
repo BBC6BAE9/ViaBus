@@ -13,7 +13,7 @@ static BBEventBus * _instance = nil;
 
 @interface BBEventBus()
 
-@property(nonatomic, strong) NSMutableArray *registArr; // 注册数组
+@property(nonatomic, strong) NSMutableArray *registList; // 注册数组
 
 @end
 
@@ -57,7 +57,7 @@ static BBEventBus * _instance = nil;
 
 - (void)commonInit{
     
-    self.registArr = @[].mutableCopy;
+    self.registList = @[].mutableCopy;
     
 }
 
@@ -79,7 +79,7 @@ static BBEventBus * _instance = nil;
                                @"identifier":identifier, // identifier 是每一个监听的标识符
                                @"handler":handler // handler 唯一标识符对应的回调
                                };
-    [self.registArr addObject:valueDic];
+    [self.registList addObject:valueDic];
     
     __weak typeof(self) weakSelf = self;
     // target 实例被释放
@@ -105,7 +105,7 @@ static BBEventBus * _instance = nil;
     if (not) {
         
         NSString *name = not.name;
-        for (NSDictionary *dic in self.registArr) {
+        for (NSDictionary *dic in self.registList) {
             
             handler handler = dic[@"handler"];
             handler(name, not.userInfo);
@@ -121,16 +121,16 @@ static BBEventBus * _instance = nil;
     
     NSMutableArray *tempArr = @[].mutableCopy;
     
-    for (int i = 0; i<self.registArr.count; i++) {
+    for (int i = 0; i<self.registList.count; i++) {
         
-        NSDictionary *dic = self.registArr[i];
+        NSDictionary *dic = self.registList[i];
         NSString *tempStr = dic[@"identifier"];
         
         if (![identifier isEqualToString:tempStr]) [tempArr addObject:dic];
         
     }
     
-    self.registArr = tempArr;
+    self.registList = tempArr;
 }
 
 
@@ -146,7 +146,7 @@ static BBEventBus * _instance = nil;
     
     BOOL isExist = NO;
     
-    for (NSDictionary *dic in self.registArr) {
+    for (NSDictionary *dic in self.registList) {
         
         if ([eventName isEqualToString:dic[@"eventName"]]) isExist = YES;
         
