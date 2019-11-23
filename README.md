@@ -1,8 +1,6 @@
 ![MHTE8J.png](https://s2.ax1x.com/2019/11/23/MHTE8J.png)
 
-[![Pod Version](http://img.shields.io/cocoapods/v/SDWebImage.svg?style=flat)](http://cocoadocs.org/docsets/SDWebImage/)
 [![Pod License](http://img.shields.io/cocoapods/l/SDWebImage.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)]()
 
 轻量级的事件总线，轻松实现模块间解耦，无需管理订阅周期....
 
