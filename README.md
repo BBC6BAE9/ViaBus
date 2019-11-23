@@ -11,7 +11,7 @@
 
 This library provides an async image downloader with cache support. For convenience, we added categories for UI elements like `UIImageView`, `UIButton`, `MKAnnotationView`.
 
-## Features
+## 特性
 
 - [x] Categories for `UIImageView`, `UIButton`, `MKAnnotationView` adding web image and cache management
 - [x] An asynchronous image downloader
@@ -31,11 +31,10 @@ This library provides an async image downloader with cache support. For convenie
 - [x] Modern Objective-C and better Swift support 
 - [x] Performances!
 
-## Supported Image Formats
+## 支持的事件类型
 
-- Image formats supported by UIImage (JPEG, PNG, HEIC, ...), including GIF/APNG/HEIC animation
-- WebP format, including animated WebP (use the [SDWebImageWebPCoder](https://github.com/SDWebImage/SDWebImageWebPCoder) project)
-- Support extendable coder plugins for new image formats like BPG, AVIF. And vector format like PDF, SVG. See all the list in [Image coder plugin List](https://github.com/SDWebImage/SDWebImage/wiki/Coder-Plugin-List)
+- NSNotification
+- AppDelegate中的App行为通知
 
 ## Additional modules
 
