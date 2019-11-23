@@ -33,7 +33,7 @@ App内各功能部件之间传送信息的`公共通信干线`
 - macOS 10.10 or later (10.15 for Catalyst)
 - Xcode 10.0 or later
 
-## 开始使用
+## 一览
 
 - Read this Readme doc
 - Read the [How to use section](https://github.com/SDWebImage/SDWebImage#how-to-use)
@@ -55,24 +55,18 @@ App内各功能部件之间传送信息的`公共通信干线`
 - If you **found a bug**, open an issue.
 - If you **have a feature request**, open an issue.
 
-## How To Use
+## 如何使用
 
 * Objective-C
 
 ```objective-c
-#import <SDWebImage/SDWebImage.h>
+#import "BBEventBus.h"
 ...
-[imageView sd_setImageWithURL:[NSURL URLWithString:@"http://www.domain.com/path/to/image.jpg"]
-             placeholderImage:[UIImage imageNamed:@"placeholder.png"]];
+[BBEVENTBUS subscribeEventWithEventname:@"dataDidchanged" andTaget:self handler:^(NSString * _Nonnull eventName, id  _Nonnull object) {
+
+}];
 ```
 
-* Swift
-
-```swift
-import SDWebImage
-
-imageView.sd_setImage(with: URL(string: "http://www.domain.com/path/to/image.jpg"), placeholderImage: UIImage(named: "placeholder.png"))
-```
 
 - For details about how to use the library and clear examples, see [The detailed How to use](https://github.com/SDWebImage/SDWebImage/blob/master/Docs/HowToUse.md)
 
