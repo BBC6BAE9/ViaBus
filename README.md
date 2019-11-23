@@ -46,23 +46,8 @@
 ## 谁在使用它
 
 
-## Communication
-
-- If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/sdwebimage). (Tag 'sdwebimage')
-- If you'd like to **ask a general question**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/sdwebimage).
-- If you **found a bug**, open an issue.
-- If you **have a feature request**, open an issue.
-
-
-#### Subspecs
-
-There are 2 subspecs available now: `Core` and `MapKit` (this means you can install only some of the SDWebImage modules. By default, you get just `Core`, so if you need `MapKit`, you need to specify it). 
-
-Podfile example:
-
-```
-pod 'SDWebImage/MapKit'
-```
+## 联系我
+- 如果你 **发现了Bug**, 请提issue.
 
 ## 作者
 - [HuangHong](https://github.com/BBC6BAE9)
