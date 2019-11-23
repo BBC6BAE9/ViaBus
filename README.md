@@ -137,43 +137,6 @@ If this is your first time using Carthage in the project, you'll need to go thro
 
 > NOTE: At this time, Carthage does not provide a way to build only specific repository subcomponents (or equivalent of CocoaPods's subspecs). All components and their dependencies will be built with the above command. However, you don't need to copy frameworks you aren't using into your project. For instance, if you aren't using `SDWebImageMapKit`, feel free to delete that framework from the Carthage Build directory after `carthage update` completes.
 
-### Installation with Swift Package Manager (Xcode 11+)
-
-[Swift Package Manager](https://swift.org/package-manager/) (SwiftPM) is a tool for managing the distribution of Swift code as well as C-family dependency. From Xcode 11, SwiftPM got natively integrated with Xcode.
-
-SDWebImage support SwiftPM from version 5.1.0. To use SwiftPM, you should use Xcode 11 to open your project. Click `File` -> `Swift Packages` -> `Add Package Dependency`, enter [SDWebImage repo's URL](https://github.com/SDWebImage/SDWebImage.git). Or you can login Xcode with your GitHub account and just type `SDWebImage` to search.
-
-After select the package, you can choose the dependency type (tagged version, branch or commit). Then Xcode will setup all the stuff for you.
-
-If you're a framework author and use SDWebImage as a dependency, update your `Package.swift` file:
-
-```swift
-let package = Package(
-    // 5.1.0 ..< 6.0.0
-    dependencies: [
-        .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.1.0")
-    ],
-    // ...
-)
-```
-
-### Manual Installation Guide
-
-See more on [Manual install Guide](https://github.com/SDWebImage/SDWebImage/wiki/Installation-Guide#manual-installation-guide)
-
-### Import headers in your source files
-
-In the source files where you need to use the library, import the umbrella header file:
-
-```objective-c
-#import <SDWebImage/SDWebImage.h>
-```
-
-### Build Project
-
-At this point your workspace should build without error. If you are having problem, post to the Issue and the
-community can help you solve it.
-
 ## 作者
 - [HuangHong](https://github.com/BBC6BAE9)
 
