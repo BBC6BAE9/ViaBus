@@ -9,7 +9,7 @@
 [![Mac Catalyst compatible](https://img.shields.io/badge/Catalyst-compatible-brightgreen.svg)](https://developer.apple.com/documentation/xcode/creating_a_mac_version_of_your_ipad_app/)
 [![codecov](https://codecov.io/gh/SDWebImage/SDWebImage/branch/master/graph/badge.svg)](https://codecov.io/gh/SDWebImage/SDWebImage)
 
-App内各功能部件之间传送信息的`公共通信干线`
+事件总线是观察者模式（发布/订阅）的一种实现，集中处理事件，但是不同功能模块之间不需要依赖从而达到解耦的目的，是App内各功能部件之间传送信息的`公共通信干线`。
 
 ## 特性
 
@@ -198,9 +198,11 @@ Thank you to all the people who have already contributed to SDWebImage.
 
 ## Licenses
 
-All source code is licensed under the [MIT License](https://github.com/SDWebImage/SDWebImage/blob/master/LICENSE).
+All source code is licensed under the [MIT License]().
 
 ## Architecture
+
+![Mb1vWt.png](https://s2.ax1x.com/2019/11/23/Mb1vWt.png)
 
 #### High Level Diagram
 <p align="center" >
