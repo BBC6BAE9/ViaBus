@@ -53,61 +53,6 @@
 - If you **found a bug**, open an issue.
 - If you **have a feature request**, open an issue.
 
-## 如何使用
-
-* Objective-C
-
-```objective-c
-#import "BBEventBus.h"
-...
-[BBEVENTBUS subscribeEventWithEventname:@"dataDidchanged" andTaget:self handler:^(NSString * _Nonnull eventName, id  _Nonnull object) {
-
-}];
-```
-
-
-- For details about how to use the library and clear examples, see [The detailed How to use](https://github.com/SDWebImage/SDWebImage/blob/master/Docs/HowToUse.md)
-
-## Installation
-
-There are four ways to use SDWebImage in your project:
-- using CocoaPods
-- using Carthage
-- using Swift Package Manager
-- manual install (build frameworks or embed Xcode Project)
-
-### Installation with CocoaPods
-
-[CocoaPods](http://cocoapods.org/) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries in your projects. See the [Get Started](http://cocoapods.org/#get_started) section for more details.
-
-#### Podfile
-```
-platform :ios, '8.0'
-pod 'SDWebImage', '~> 5.0'
-```
-
-##### Swift and static framework
-
-Swift project previously have to use `use_frameworks!` to make all Pods into dynamic framework to let CocoaPods works.
-
-However, start with `CocoaPods 1.5.0+` (with `Xcode 9+`), which supports to build both Objective-C && Swift code into static framework. You can use modular headers to use SDWebImage as static framework, without the need of `use_frameworks!`:
-
-```
-platform :ios, '8.0'
-# Uncomment the next line when you want all Pods as static framework
-# use_modular_headers!
-pod 'SDWebImage', :modular_headers => true
-```
-
-See more on [CocoaPods 1.5.0 — Swift Static Libraries](http://blog.cocoapods.org/CocoaPods-1.5.0/)
-
-If not, you still need to add `use_frameworks!` to use SDWebImage as dynamic framework:
-
-```
-platform :ios, '8.0'
-use_frameworks!
-pod 'SDWebImage'
-```
 
 #### Subspecs
 
@@ -118,20 +63,6 @@ Podfile example:
 ```
 pod 'SDWebImage/MapKit'
 ```
-
-### Installation with Carthage (iOS 8+)
-
-[Carthage](https://github.com/Carthage/Carthage) is a lightweight dependency manager for Swift and Objective-C. It leverages CocoaTouch modules and is less invasive than CocoaPods.
-
-To install with carthage, follow the instruction on [Carthage](https://github.com/Carthage/Carthage)
-
-Carthage users can point to this repository and use whichever generated framework they'd like: SDWebImage, SDWebImageMapKit or both.
-
-Make the following entry in your Cartfile: `github "SDWebImage/SDWebImage"`
-Then run `carthage update`
-If this is your first time using Carthage in the project, you'll need to go through some additional steps as explained [over at Carthage](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application).
-
-> NOTE: At this time, Carthage does not provide a way to build only specific repository subcomponents (or equivalent of CocoaPods's subspecs). All components and their dependencies will be built with the above command. However, you don't need to copy frameworks you aren't using into your project. For instance, if you aren't using `SDWebImageMapKit`, feel free to delete that framework from the Carthage Build directory after `carthage update` completes.
 
 ## 作者
 - [HuangHong](https://github.com/BBC6BAE9)
@@ -148,3 +79,15 @@ All source code is licensed under the [MIT License]().
 
 ![MbUHIS.png](https://s2.ax1x.com/2019/11/23/MbUHIS.png)
 
+
+## 如何使用
+
+* Objective-C
+
+```objective-c
+#import "BBEventBus.h"
+...
+[BBEVENTBUS subscribeEventWithEventname:@"dataDidchanged" andTaget:self handler:^(NSString * _Nonnull eventName, id  _Nonnull object) {
+
+}];
+```
