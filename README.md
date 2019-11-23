@@ -202,27 +202,7 @@ All source code is licensed under the [MIT License]().
 
 ## Architecture
 
-![Mb1vWt.png](https://s2.ax1x.com/2019/11/23/Mb1vWt.png)
-
-#### High Level Diagram
-<p align="center" >
-    <img src="https://raw.githubusercontent.com/SDWebImage/SDWebImage/master/Docs/Diagrams/SDWebImageHighLevelDiagram.jpeg" title="SDWebImage high level diagram">
-</p>
-
-#### Overall Class Diagram
-<p align="center" >
-    <img src="https://raw.githubusercontent.com/SDWebImage/SDWebImage/master/Docs/Diagrams/SDWebImageClassDiagram.png" title="SDWebImage overall class diagram">
-</p>
-
-#### Top Level API Diagram
-<p align="center" >
-    <img src="https://raw.githubusercontent.com/SDWebImage/SDWebImage/master/Docs/Diagrams/SDWebImageTopLevelClassDiagram.png" title="SDWebImage top level API diagram">
-</p>
-
-#### Main Sequence Diagram
-<p align="center" >
-    <img src="https://raw.githubusercontent.com/SDWebImage/SDWebImage/master/Docs/Diagrams/SDWebImageSequenceDiagram.png" title="SDWebImage sequence diagram">
-</p>
+![Mb33k9.png](https://s2.ax1x.com/2019/11/23/Mb33k9.png)
 
 #### More detailed diagrams
 - [Manager API Diagram](https://raw.githubusercontent.com/SDWebImage/SDWebImage/master/Docs/Diagrams/SDWebImageManagerClassDiagram.png)
