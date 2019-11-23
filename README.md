@@ -16,44 +16,14 @@ This library provides an async image downloader with cache support. For convenie
 - [x] 实现模块与模块解耦
 - [x] 不需要移除事件监听，自动管理监听的生命周期（在订阅者实例被释放的时候，会自动移除监听）
 - [x] 当订阅者不再需要监听事件的时候，手动移除监听
-- [x] [Image loading indicators](https://github.com/SDWebImage/SDWebImage/wiki/How-to-use#use-view-indicator-50)
 
 ## 支持的事件类型
 
 - NSNotification
 - AppDelegate中的App行为通知
 
-## Additional modules
-
-In order to keep SDWebImage focused and limited to the core features, but also allow extensibility and custom behaviors, during the 5.0 refactoring we focused on modularizing the library.
-As such, we have moved/built new modules to [SDWebImage org](https://github.com/SDWebImage).
-
-#### SwiftUI
-[SwiftUI](https://developer.apple.com/xcode/swiftui/) is an innovative UI framework written in Swift to build user interfaces across all Apple platforms.
-
-We support SwiftUI by building with the functions (caching, loading and animation) powered by SDWebImage. You can have a try with [SDWebImageSwiftUI](https://github.com/SDWebImage/SDWebImageSwiftUI)
-
-#### Coders for additional image formats
-- [SDWebImageWebPCoder](https://github.com/SDWebImage/SDWebImageWebPCoder) - coder for WebP image format. Based on [libwebp](https://chromium.googlesource.com/webm/libwebp)
-- [SDWebImageHEIFCoder](https://github.com/SDWebImage/SDWebImageHEIFCoder) - coder to support HEIF image without Apple's `Image/IO framework`, iOS 8+/macOS 10.10+ support.
-- [SDWebImageBPGCoder](https://github.com/SDWebImage/SDWebImageBPGCoder) - coder for BPG format
-- [SDWebImageFLIFCoder](https://github.com/SDWebImage/SDWebImageFLIFCoder) - coder for FLIF format
-- [SDWebImageAVIFCoder](https://github.com/SDWebImage/SDWebImageAVIFCoder) - coder for AVIF (AV1-based) format
-- and more from community!
-
-#### Loaders
-- [SDWebImagePhotosPlugin](https://github.com/SDWebImage/SDWebImagePhotosPlugin) - plugin to support loading images from Photos (using `Photos.framework`) 
-
-#### Integration with 3rd party libraries
-- [SDWebImageFLPlugin](https://github.com/SDWebImage/SDWebImageFLPlugin) - plugin to support [FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage) as the engine for animated GIFs
-- [SDWebImageYYPlugin](https://github.com/SDWebImage/SDWebImageYYPlugin) - plugin to integrate [YYImage](https://github.com/ibireme/YYImage) & [YYCache](https://github.com/ibireme/YYCache) for image rendering & caching
-
-#### Make our lives easier
-- [libwebp-Xcode](https://github.com/SDWebImage/libwebp-Xcode) - A wrapper for [libwebp](https://chromium.googlesource.com/webm/libwebp) + an Xcode project.
-- [libheif-Xcode](https://github.com/SDWebImage/libheif-Xcode) - A wrapper for [libheif](https://github.com/strukturag/libheif) + an Xcode project.
-- and more third-party C/C++ image codec libraries with CocoaPods/Carthage support.
-
-You can use those directly, or create similar components of your own.
+#### 三方库
+- [RFDestoryNotify](https://github.com/refusebt/RFDestoryNotify) - plugin to support [FLAnimatedImage]
 
 ## Requirements
 
@@ -63,14 +33,7 @@ You can use those directly, or create similar components of your own.
 - macOS 10.10 or later (10.15 for Catalyst)
 - Xcode 10.0 or later
 
-#### Backwards compatibility
-
-- For iOS 7, macOS 10.9 or Xcode < 8, use [any 4.x version up to 4.4.6](https://github.com/SDWebImage/SDWebImage/releases/tag/4.4.6)
-- For macOS 10.8, use [any 4.x version up to 4.3.0](https://github.com/SDWebImage/SDWebImage/releases/tag/4.3.0)
-- For iOS 5 and 6, use [any 3.x version up to 3.7.6](https://github.com/SDWebImage/SDWebImage/tag/3.7.6)
-- For iOS < 5.0, please use the last [2.0 version](https://github.com/SDWebImage/SDWebImage/tree/2.0-compat).
-
-## Getting Started
+## 开始使用
 
 - Read this Readme doc
 - Read the [How to use section](https://github.com/SDWebImage/SDWebImage#how-to-use)
@@ -82,8 +45,8 @@ You can use those directly, or create similar components of your own.
 - Read the [Common Problems](https://github.com/SDWebImage/SDWebImage/wiki/Common-Problems) to find the solution for common problems 
 - Go to the [Wiki Page](https://github.com/SDWebImage/SDWebImage/wiki) for more information such as [Advanced Usage](https://github.com/SDWebImage/SDWebImage/wiki/Advanced-Usage)
 
-## Who Uses It
-- Find out [who uses SDWebImage](https://github.com/SDWebImage/SDWebImage/wiki/Who-Uses-SDWebImage) and add your app to the list.
+## 谁在使用它
+
 
 ## Communication
 
@@ -91,11 +54,6 @@ You can use those directly, or create similar components of your own.
 - If you'd like to **ask a general question**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/sdwebimage).
 - If you **found a bug**, open an issue.
 - If you **have a feature request**, open an issue.
-
-## Contribution
-
-- If you **want to contribute**, read the [Contributing Guide](https://github.com/SDWebImage/SDWebImage/blob/master/.github/CONTRIBUTING.md)
-- For **development contribution guide**, read the [How-To-Contribute](https://github.com/SDWebImage/SDWebImage/wiki/How-to-Contribute)
 
 ## How To Use
 
