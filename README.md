@@ -23,7 +23,7 @@ This library provides an async image downloader with cache support. For convenie
 - AppDelegate中的App行为通知（稍后更新...）
 
 #### 三方库
-- [RFDestoryNotify](https://github.com/refusebt/RFDestoryNotify) - plugin to support [FLAnimatedImage]
+- [RFDestoryNotify](https://github.com/refusebt/RFDestoryNotify) - 监听实例的释放
 
 ## Requirements
 
