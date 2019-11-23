@@ -13,23 +13,10 @@ This library provides an async image downloader with cache support. For convenie
 
 ## 特性
 
-- [x] Categories for `UIImageView`, `UIButton`, `MKAnnotationView` adding web image and cache management
-- [x] An asynchronous image downloader
-- [x] An asynchronous memory + disk image caching with automatic cache expiration handling
-- [x] A background image decompression
-- [x] Progressive image loading (including animated image, like GIF showing in Web browser)
-- [x] [Extendable image coder](https://github.com/SDWebImage/SDWebImage/wiki/Advanced-Usage#custom-coder-420) to support massive image format, like WebP
-- [x] [Full-stack solution for animated images](https://github.com/SDWebImage/SDWebImage/wiki/Advanced-Usage#animated-image-50) which keep a balance between CPU && Memory
-- [x] [Customizable and composable transformations](https://github.com/SDWebImage/SDWebImage/wiki/Advanced-Usage#transformer-50) can be applied to the images right after download
-- [x] [Customizable and multiple caches system](https://github.com/SDWebImage/SDWebImage/wiki/Advanced-Usage#custom-cache-50)
-- [x] [Customizable and multiple loaders system](https://github.com/SDWebImage/SDWebImage/wiki/Advanced-Usage#custom-loader-50) to expand the capabilities, like [Photos Library](https://github.com/SDWebImage/SDWebImagePhotosPlugin)
+- [x] 实现模块与模块解耦
+- [x] 不需要移除事件监听，自动管理监听的生命周期（在订阅者实例被释放的时候，会自动移除监听）
+- [x] 当订阅者不再需要监听事件的时候，手动移除监听
 - [x] [Image loading indicators](https://github.com/SDWebImage/SDWebImage/wiki/How-to-use#use-view-indicator-50)
-- [x] [Image loading transition animation](https://github.com/SDWebImage/SDWebImage/wiki/Advanced-Usage#image-transition-430)
-- [x] A guarantee that the same URL won't be downloaded several times
-- [x] A guarantee that bogus URLs won't be retried again and again
-- [x] A guarantee that main thread will never be blocked
-- [x] Modern Objective-C and better Swift support 
-- [x] Performances!
 
 ## 支持的事件类型
 
