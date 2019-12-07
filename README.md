@@ -5,7 +5,7 @@
 ![image](https://img.shields.io/badge/license-Apache2.0-blue.svg)
 ![image](https://img.shields.io/badge/author-KunMinX-orange.svg)
 
-### [VIABUS iOS 端解决方案 现已同步上市！🎉🎉🎉](https://github.com/BBC6BAE9/BBEventBus)
+### [VIABUS Android 端解决方案 同步更新！🎉🎉🎉](https://github.com/KunMinX/VIABUS-Architecture)
 
 ### [中文文档](https://github.com/KunMinX/android-viabus-architecture/blob/master/README_CN.md) | [English](https://github.com/KunMinX/android-viabus-architecture/blob/master/README_EN.md)
 
