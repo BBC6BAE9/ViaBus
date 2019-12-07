@@ -10,10 +10,8 @@
 ### [中文文档]() | [English]()
 
 # 什么是 VIABUS
-⭐ VIABUS 是一款响应式架构，
+⭐VIABUS-Architecture-iOS 是objective - C版本的轻量级事件总线，采用观察者模式（发布/订阅）的一种实现，借助总线转发数据的请求和响应，实现 UI与业务、模块与模块之间的完全解耦。是App内各功能部件之间传送信息的`公共通信干线`。
 轻量级的事件总线，轻松实现模块间解耦，无需管理订阅周期....
-
-VIABUS-Architecture-iOS 是objective - C版本的事件总线，采用观察者模式（发布/订阅）的一种实现，借助总线转发数据的请求和响应，实现 UI与业务、模块与模块之间的完全解耦。是App内各功能部件之间传送信息的`公共通信干线`。
 
 ![image](https://github.com/KunMinX/android-viabus-architecture/blob/master/images/viabus_flow_cn.png)
 
