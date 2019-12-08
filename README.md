@@ -13,7 +13,7 @@
 ⭐VIABUS-Architecture-iOS 是objective - C版本的轻量级事件总线，采用观察者模式（发布/订阅）的一种实现，借助总线转发数据的请求和响应，实现 UI与业务、模块与模块之间的完全解耦。是App内各功能部件之间传送信息的`公共通信干线`。
 轻量级的事件总线，轻松实现模块间解耦，无需管理订阅周期....
 
-![image](https://github.com/KunMinX/android-viabus-architecture/blob/master/images/viabus_flow_cn.png)
+![Mb33k9.png](https://s2.ax1x.com/2019/11/23/Mb33k9.png)
 
 # 为什么选择 VIABUS 
 
@@ -38,11 +38,6 @@
 
 }];
 ```
-# 原理
-
-## 架构
-
-![Mb33k9.png](https://s2.ax1x.com/2019/11/23/Mb33k9.png)
 
 ## 存储结构
 
