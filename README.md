@@ -3,7 +3,6 @@
 ![image](https://img.shields.io/badge/jcenter-0.4.8-brightgreen.svg)
 ![image](https://img.shields.io/badge/api-%2B15-blue.svg)
 ![image](https://img.shields.io/badge/license-Apache2.0-blue.svg)
-![image](https://img.shields.io/badge/author-KunMinX-orange.svg)
 
 ### [VIABUS Android 端解决方案 同步更新！🎉🎉🎉](https://github.com/KunMinX/VIABUS-Architecture)
 
