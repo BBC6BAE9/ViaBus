@@ -56,12 +56,6 @@ Email：[chinahuanghong@gmail.com](mailto:chinahuanghong@gmail.com)
 
 Home：[作者的个人博客](http://www.bbc6bae9.com/)
 
-# Requirements
-
-- iOS 8.0 or later
-- macOS 10.10 or later (10.15 for Catalyst)
-- Xcode 10.0 or later
-
 # Licenses
 
 All source code is licensed under the [MIT License]().
