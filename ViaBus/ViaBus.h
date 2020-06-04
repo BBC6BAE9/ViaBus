@@ -9,13 +9,16 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-#define BBEVENTBUS [BBEventBus sharedInstance]
+#define VIABUS [ViaBus sharedInstance]
 typedef void (^handler)(NSString *eventName ,id object);
 
-@interface BBEventBus : NSObject
+@interface ViaBus : NSObject
 
 /** 单例 */
 + (instancetype)sharedInstance;
+
+
+- (void)publishNotification:(NSString *)notification;
 
 /**
  订阅消息
