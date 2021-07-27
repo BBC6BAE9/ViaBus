@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/ViaBus.svg?style=flat)](https://cocoapods.org/pods/ViaBus)
 [![Platform](https://img.shields.io/cocoapods/p/ViaBus.svg?style=flat)](https://cocoapods.org/pods/ViaBus)
 
+![logo](./logo.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -23,6 +25,11 @@ pod 'ViaBus'
 ## Author
 
 bbc6bae9, ihenryhuang@tencent.com
+
+## Architecture
+
+![arch](./arch.png)
+
 
 ## License
 
