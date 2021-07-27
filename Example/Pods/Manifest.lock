@@ -1,0 +1,16 @@
+PODS:
+  - ViaBus (0.1.0)
+
+DEPENDENCIES:
+  - ViaBus (from `../`)
+
+EXTERNAL SOURCES:
+  ViaBus:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ViaBus: c408ac554fd165b52b027a043b80de92cfb75472
+
+PODFILE CHECKSUM: 085acc26b79d89ccc6b6321afe531ed94961bc07
+
+COCOAPODS: 1.10.1

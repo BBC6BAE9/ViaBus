@@ -1,0 +1,22 @@
+{
+  "name": "ViaBus",
+  "version": "0.1.0",
+  "summary": "A short description of ViaBus.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bbc6bae9/ViaBus",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bbc6bae9": "ihenryhuang@tencent.com"
+  },
+  "source": {
+    "git": "https://github.com/bbc6bae9/ViaBus.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ViaBus/Classes/**/*"
+}

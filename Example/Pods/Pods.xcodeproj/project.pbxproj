@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F5721087C5106A2CDF79649B0C726B9 /* ViaBus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B56B321D03E747D7372FA9E4F113594B /* ViaBus-dummy.m */; };
+		4EBA22CFD95110536BB2CDFAF56C50F0 /* Pods-ViaBus_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31305C37E29BAB9EF7307C49133BDF0A /* Pods-ViaBus_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E5F2935E00E4D797935A104CA82831F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8D963C3E6A38A32D8DA2F1C353619B3D /* Pods-ViaBus_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C4F71CD6B1F28E3066FA6B28E43D10 /* Pods-ViaBus_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		923A9AF5FB97B814A609C9E1A6F0F9A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		96C28E63075966A678BD723DB1A34AE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C101A2EAEB445F75C0916E12AC2DF672 /* Pods-ViaBus_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56930FEB244F83BB64928BA76729B49B /* Pods-ViaBus_Tests-dummy.m */; };
+		C8ECC58E1086582463F164E1316BC43E /* ViaBus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B75B43DF49112E8B016E0E1717A4DBE /* ViaBus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDAA6808BBE3C9AB71655C8627B34271 /* Pods-ViaBus_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FB4C83448EB021EF572EFBB2B57D9D /* Pods-ViaBus_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A04683DD5EE58B4F348F9F2C0D052375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA0EBED303B968E65DB795FFC0CEC58E;
+			remoteInfo = ViaBus;
+		};
+		AC0DD4792D6E03CD31BEE6B536494326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF515117539CE2A5CE4AB17555D2D772;
+			remoteInfo = "Pods-ViaBus_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B9E36D66DAADC0F9A8170BC5F9C986E /* Pods-ViaBus_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViaBus_Example-Info.plist"; sourceTree = "<group>"; };
+		1AE1CAA9B83D013EDD9BC9F7B9C7B2B5 /* ViaBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViaBus.release.xcconfig; sourceTree = "<group>"; };
+		1D6113DCE3E456420EDD83981CD3F5EE /* Pods-ViaBus_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViaBus_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E7108DE22A5F015038B97DF074B827A /* ViaBus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ViaBus-Info.plist"; sourceTree = "<group>"; };
+		1F3DD94DB0270EAB3966D425793B79DF /* Pods-ViaBus_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViaBus_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		23F1183BEE2715F5B85BCB055D762D8F /* Pods-ViaBus_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViaBus_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		31305C37E29BAB9EF7307C49133BDF0A /* Pods-ViaBus_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViaBus_Example-umbrella.h"; sourceTree = "<group>"; };
+		4360A737BC2E34E4B749EF72BD9F9F28 /* Pods-ViaBus_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViaBus_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4400A3BDDDE8351566331D56874345DC /* Pods-ViaBus_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViaBus_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4660FF4E5500F6C16A41A9AF0C7993FE /* Pods_ViaBus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViaBus_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		505C30F7B9D7358602C8A70CA99223B5 /* Pods-ViaBus_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ViaBus_Tests.modulemap"; sourceTree = "<group>"; };
+		56930FEB244F83BB64928BA76729B49B /* Pods-ViaBus_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViaBus_Tests-dummy.m"; sourceTree = "<group>"; };
+		5B75B43DF49112E8B016E0E1717A4DBE /* ViaBus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViaBus-umbrella.h"; sourceTree = "<group>"; };
+		62C4F71CD6B1F28E3066FA6B28E43D10 /* Pods-ViaBus_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViaBus_Tests-umbrella.h"; sourceTree = "<group>"; };
+		674D78E35D4CA6B7B851B26F916848A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6B1CB15F74AA03975B5D5220DF2D6051 /* ViaBus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ViaBus.modulemap; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80BCCBE73591CF1CA589704A53A6A960 /* Pods-ViaBus_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViaBus_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		85B4C467202AB03BD0763D49FA57EEC1 /* Pods-ViaBus_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViaBus_Example.release.xcconfig"; sourceTree = "<group>"; };
+		97D462070D53233E88412E56D1B99703 /* ViaBus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViaBus-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1FB4C83448EB021EF572EFBB2B57D9D /* Pods-ViaBus_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViaBus_Example-dummy.m"; sourceTree = "<group>"; };
+		A4EB246A4B12977982B8B0AF7A548B81 /* ViaBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViaBus.debug.xcconfig; sourceTree = "<group>"; };
+		AC1D914EB1DA50623159F19760263471 /* ViaBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ViaBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56B321D03E747D7372FA9E4F113594B /* ViaBus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViaBus-dummy.m"; sourceTree = "<group>"; };
+		C47D5D1A1A74F3A21EF40FB100BE36FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D5B0ACFE81582659AB660EA6B9D8299E /* Pods-ViaBus_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViaBus_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D8F612AF09DCA0C6317C9167FECBCB0E /* Pods-ViaBus_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViaBus_Tests-Info.plist"; sourceTree = "<group>"; };
+		E1916BEBB6F7F1F6BF8E97E21F59154A /* Pods_ViaBus_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViaBus_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB761902F0E6903E32AD7B14E6D5F7E /* ViaBus.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ViaBus.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F04BAEE131B4D6ADBBFFDCCD83C4650F /* Pods-ViaBus_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViaBus_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDE88C3B467857FB28C28542351B9633 /* Pods-ViaBus_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ViaBus_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A99C188D528B09D12EB4FF0A3C7ED6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C28E63075966A678BD723DB1A34AE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957F79AF808438E29C251B60A14C1B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923A9AF5FB97B814A609C9E1A6F0F9A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9786A1B5964ED4E7CCB37E799CA236A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5F2935E00E4D797935A104CA82831F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3548C64DE77A3E418E6B62574A46F1BF /* Pods-ViaBus_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FDE88C3B467857FB28C28542351B9633 /* Pods-ViaBus_Example.modulemap */,
+				1D6113DCE3E456420EDD83981CD3F5EE /* Pods-ViaBus_Example-acknowledgements.markdown */,
+				1F3DD94DB0270EAB3966D425793B79DF /* Pods-ViaBus_Example-acknowledgements.plist */,
+				A1FB4C83448EB021EF572EFBB2B57D9D /* Pods-ViaBus_Example-dummy.m */,
+				D5B0ACFE81582659AB660EA6B9D8299E /* Pods-ViaBus_Example-frameworks.sh */,
+				0B9E36D66DAADC0F9A8170BC5F9C986E /* Pods-ViaBus_Example-Info.plist */,
+				31305C37E29BAB9EF7307C49133BDF0A /* Pods-ViaBus_Example-umbrella.h */,
+				80BCCBE73591CF1CA589704A53A6A960 /* Pods-ViaBus_Example.debug.xcconfig */,
+				85B4C467202AB03BD0763D49FA57EEC1 /* Pods-ViaBus_Example.release.xcconfig */,
+			);
+			name = "Pods-ViaBus_Example";
+			path = "Target Support Files/Pods-ViaBus_Example";
+			sourceTree = "<group>";
+		};
+		400268A2EF1EA1BFFA7EC4D73F391555 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41449187351896D8CCEC82D2ED380D6C /* ViaBus */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		41449187351896D8CCEC82D2ED380D6C /* ViaBus */ = {
+			isa = PBXGroup;
+			children = (
+				83188A2C22AC6E768E03CB3507B0812D /* Pod */,
+				B301C6B7204991EFFD495EE1180A2DC0 /* Support Files */,
+			);
+			name = ViaBus;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60564EA91F8E3446A584BDE93D198AE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4660FF4E5500F6C16A41A9AF0C7993FE /* Pods_ViaBus_Example.framework */,
+				E1916BEBB6F7F1F6BF8E97E21F59154A /* Pods_ViaBus_Tests.framework */,
+				AC1D914EB1DA50623159F19760263471 /* ViaBus.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83188A2C22AC6E768E03CB3507B0812D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				674D78E35D4CA6B7B851B26F916848A5 /* LICENSE */,
+				C47D5D1A1A74F3A21EF40FB100BE36FC /* README.md */,
+				ECB761902F0E6903E32AD7B14E6D5F7E /* ViaBus.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AA2DF7641B01479C52A17C430480ED53 /* Pods-ViaBus_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				505C30F7B9D7358602C8A70CA99223B5 /* Pods-ViaBus_Tests.modulemap */,
+				4400A3BDDDE8351566331D56874345DC /* Pods-ViaBus_Tests-acknowledgements.markdown */,
+				4360A737BC2E34E4B749EF72BD9F9F28 /* Pods-ViaBus_Tests-acknowledgements.plist */,
+				56930FEB244F83BB64928BA76729B49B /* Pods-ViaBus_Tests-dummy.m */,
+				D8F612AF09DCA0C6317C9167FECBCB0E /* Pods-ViaBus_Tests-Info.plist */,
+				62C4F71CD6B1F28E3066FA6B28E43D10 /* Pods-ViaBus_Tests-umbrella.h */,
+				F04BAEE131B4D6ADBBFFDCCD83C4650F /* Pods-ViaBus_Tests.debug.xcconfig */,
+				23F1183BEE2715F5B85BCB055D762D8F /* Pods-ViaBus_Tests.release.xcconfig */,
+			);
+			name = "Pods-ViaBus_Tests";
+			path = "Target Support Files/Pods-ViaBus_Tests";
+			sourceTree = "<group>";
+		};
+		B301C6B7204991EFFD495EE1180A2DC0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B1CB15F74AA03975B5D5220DF2D6051 /* ViaBus.modulemap */,
+				B56B321D03E747D7372FA9E4F113594B /* ViaBus-dummy.m */,
+				1E7108DE22A5F015038B97DF074B827A /* ViaBus-Info.plist */,
+				97D462070D53233E88412E56D1B99703 /* ViaBus-prefix.pch */,
+				5B75B43DF49112E8B016E0E1717A4DBE /* ViaBus-umbrella.h */,
+				A4EB246A4B12977982B8B0AF7A548B81 /* ViaBus.debug.xcconfig */,
+				1AE1CAA9B83D013EDD9BC9F7B9C7B2B5 /* ViaBus.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ViaBus";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				400268A2EF1EA1BFFA7EC4D73F391555 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				60564EA91F8E3446A584BDE93D198AE8 /* Products */,
+				D8F5E269887A0697048F978A52BB644A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8F5E269887A0697048F978A52BB644A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3548C64DE77A3E418E6B62574A46F1BF /* Pods-ViaBus_Example */,
+				AA2DF7641B01479C52A17C430480ED53 /* Pods-ViaBus_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36492861D16A1CB1361C95FBA288E0E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8ECC58E1086582463F164E1316BC43E /* ViaBus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A8B6AECD8F44E832D501401E62B68B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D963C3E6A38A32D8DA2F1C353619B3D /* Pods-ViaBus_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC6D83A1905235B27B43114092E1A55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EBA22CFD95110536BB2CDFAF56C50F0 /* Pods-ViaBus_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DA0EBED303B968E65DB795FFC0CEC58E /* ViaBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E685C1153D63374664361C1507A657 /* Build configuration list for PBXNativeTarget "ViaBus" */;
+			buildPhases = (
+				36492861D16A1CB1361C95FBA288E0E1 /* Headers */,
+				67BD7E273AED38F63F18E5EA75D86A10 /* Sources */,
+				957F79AF808438E29C251B60A14C1B66 /* Frameworks */,
+				D5CA4ED5A06F5634DD8BB693387D9E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViaBus;
+			productName = ViaBus;
+			productReference = AC1D914EB1DA50623159F19760263471 /* ViaBus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC2EBD03F98DF0691C65D8FD18A884D8 /* Pods-ViaBus_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61944A42723D209664ECBDEAB9DF68E2 /* Build configuration list for PBXNativeTarget "Pods-ViaBus_Tests" */;
+			buildPhases = (
+				47A8B6AECD8F44E832D501401E62B68B /* Headers */,
+				6F04D7AC62423D372632E6A3E82E4687 /* Sources */,
+				7A99C188D528B09D12EB4FF0A3C7ED6E /* Frameworks */,
+				188455F981D3AB2DD77361EB4DBAD555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7655DA6C70F70D992B2C533B5261FCFD /* PBXTargetDependency */,
+			);
+			name = "Pods-ViaBus_Tests";
+			productName = "Pods-ViaBus_Tests";
+			productReference = E1916BEBB6F7F1F6BF8E97E21F59154A /* Pods_ViaBus_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF515117539CE2A5CE4AB17555D2D772 /* Pods-ViaBus_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F323A0A74B0608A31DC2CB20E8AEF2B5 /* Build configuration list for PBXNativeTarget "Pods-ViaBus_Example" */;
+			buildPhases = (
+				AFC6D83A1905235B27B43114092E1A55 /* Headers */,
+				C1A78F58F0156E279A0BA8A57CA592B0 /* Sources */,
+				9786A1B5964ED4E7CCB37E799CA236A0 /* Frameworks */,
+				AF95177F4CF3A44D56CD3A8E83B05CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FCF0C0BCBDDB6FEAB410979A900C03D /* PBXTargetDependency */,
+			);
+			name = "Pods-ViaBus_Example";
+			productName = "Pods-ViaBus_Example";
+			productReference = 4660FF4E5500F6C16A41A9AF0C7993FE /* Pods_ViaBus_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 60564EA91F8E3446A584BDE93D198AE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF515117539CE2A5CE4AB17555D2D772 /* Pods-ViaBus_Example */,
+				DC2EBD03F98DF0691C65D8FD18A884D8 /* Pods-ViaBus_Tests */,
+				DA0EBED303B968E65DB795FFC0CEC58E /* ViaBus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188455F981D3AB2DD77361EB4DBAD555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF95177F4CF3A44D56CD3A8E83B05CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5CA4ED5A06F5634DD8BB693387D9E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67BD7E273AED38F63F18E5EA75D86A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5721087C5106A2CDF79649B0C726B9 /* ViaBus-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F04D7AC62423D372632E6A3E82E4687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C101A2EAEB445F75C0916E12AC2DF672 /* Pods-ViaBus_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A78F58F0156E279A0BA8A57CA592B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAA6808BBE3C9AB71655C8627B34271 /* Pods-ViaBus_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7655DA6C70F70D992B2C533B5261FCFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ViaBus_Example";
+			target = FF515117539CE2A5CE4AB17555D2D772 /* Pods-ViaBus_Example */;
+			targetProxy = AC0DD4792D6E03CD31BEE6B536494326 /* PBXContainerItemProxy */;
+		};
+		7FCF0C0BCBDDB6FEAB410979A900C03D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ViaBus;
+			target = DA0EBED303B968E65DB795FFC0CEC58E /* ViaBus */;
+			targetProxy = A04683DD5EE58B4F348F9F2C0D052375 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2852F532645FD0D26CA69FC7DB12DE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B4C467202AB03BD0763D49FA57EEC1 /* Pods-ViaBus_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViaBus_Example/Pods-ViaBus_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViaBus_Example/Pods-ViaBus_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DB75CA53B6B2A4AE63083499D4FECE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F1183BEE2715F5B85BCB055D762D8F /* Pods-ViaBus_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViaBus_Tests/Pods-ViaBus_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViaBus_Tests/Pods-ViaBus_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D258D2F768FE30C1B16F3063C64D88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04BAEE131B4D6ADBBFFDCCD83C4650F /* Pods-ViaBus_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViaBus_Tests/Pods-ViaBus_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViaBus_Tests/Pods-ViaBus_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C30F788FD7F935013EFC5F0B2017129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80BCCBE73591CF1CA589704A53A6A960 /* Pods-ViaBus_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViaBus_Example/Pods-ViaBus_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViaBus_Example/Pods-ViaBus_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE8923E3BF802B608380DB3156E62F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE1CAA9B83D013EDD9BC9F7B9C7B2B5 /* ViaBus.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ViaBus/ViaBus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ViaBus/ViaBus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ViaBus/ViaBus.modulemap";
+				PRODUCT_MODULE_NAME = ViaBus;
+				PRODUCT_NAME = ViaBus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E99DCF9F71D46EF85688F069CC8EEC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EB246A4B12977982B8B0AF7A548B81 /* ViaBus.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ViaBus/ViaBus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ViaBus/ViaBus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ViaBus/ViaBus.modulemap";
+				PRODUCT_MODULE_NAME = ViaBus;
+				PRODUCT_NAME = ViaBus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61944A42723D209664ECBDEAB9DF68E2 /* Build configuration list for PBXNativeTarget "Pods-ViaBus_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D258D2F768FE30C1B16F3063C64D88C /* Debug */,
+				2DB75CA53B6B2A4AE63083499D4FECE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E685C1153D63374664361C1507A657 /* Build configuration list for PBXNativeTarget "ViaBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99DCF9F71D46EF85688F069CC8EEC1E /* Debug */,
+				AE8923E3BF802B608380DB3156E62F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F323A0A74B0608A31DC2CB20E8AEF2B5 /* Build configuration list for PBXNativeTarget "Pods-ViaBus_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C30F788FD7F935013EFC5F0B2017129 /* Debug */,
+				2852F532645FD0D26CA69FC7DB12DE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
