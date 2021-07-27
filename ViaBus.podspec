@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ViaBus'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A deligthful event bus for iOS.'
 
 # This description is used to generate tags and improve search results.
