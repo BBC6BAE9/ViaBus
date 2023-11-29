@@ -24,7 +24,7 @@ pod 'ViaBus'
 
 ## Author
 
-bbc6bae9, ihenryhuang@tencent.com
+bbc6bae9, bbc6bae9@gmail.com
 
 ## Architecture
 
